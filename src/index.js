@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const element = (
-  <div>
-    <h1>Hello World!</h1>
-    <ul>
-      <li>One</li>
-      <li>Two</li>
-    </ul>
-  </div>
-);
-ReactDOM.render(element, document.getElementById("root"));
+function App() {
+  return (
+    <div>
+      <h1>Hello Mate</h1>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+      </ul>
+    </div>
+  );
+}
+ReactDOM.render(<App />, document.getElementById("root"));
